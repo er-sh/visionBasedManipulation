@@ -1,46 +1,27 @@
-\subsection{quigley2009high}
-\textbf{High-accuracy 3d sensing for mobile manipulation: Improving object detection and door opening}
+\section{Nanorobotic manipulation}
+\subsection{2017 - A Vision-based Automated Manipulation System for the Pick-up of Carbon Nanotubes}
 \begin{itemize}
-\item Object detection and door opening. Using high resolution depth information 
-\item Low-resolution depth information can improve object detection by removing object classifications which are inconsistent with training data
-(Direct cite: \textit{http://users.cecs.anu.edu.au/~sgould/papers/eccv08-vision3d.pdf})
-\item If a depth sensor's noise is comparable to the size of the target object classes, it will be hard-pressed to provide more than contextual cues. 
-\item Active vision techniques: Projecting large patterns onto the scene using a video projector, and observe deformations of the patterns in a camera to infer depth. \\
-(Direct cite: \textit{https://engineering.purdue.edu/ZhangLab/publications/papers/2006-oe-realtime.pdf})
+\item A nanorobotic manipulation system allowing automated pick-up of carbon nanotube (CNT) based on visual feedback.
+\item Histogram thresholding for automatic binarization... clearly distinguished CNTs from the substrate and other impurities under various image brightnesses and contrasts.
+\item Segment detection method (SDM) to separate the CNT
+and AFM cantilever during overlapping.
+\item Delicate manipulation of CNTs is a large challenge because CNTs are generated in bulk.
+\item Conventionally, the manipulation of nanomaterials is manually performed through teleoperation which is time consuming, highly skill dependent and unproductive. [1]
+\item Visual feedback-based nanorobotic manipulation
+provides an effective way to overcome these shortcomings. 
+\item Great progress to visually detect the position
+of such nanomaterials, such as [2] which uses the principle component analysis (PCA) to locate CNTs
+\item Great efforts have been made to obtain the relative depth information from SEM such as [3]. The observation and manipulation of nano scale objects under SEM
 \end{itemize}
-\textit{http://ieeexplore.ieee.org/abstract/document/5152750/}
+1: \textit{2013 - Automated pickplace of silicon nanowires} \\
+2: \textit{2009 - Nanolab: A nanorobotic system for automated pick-and-place handling and characterization of cnts} \\
+3: \textit{2013 - A measurement method for micro 3d shape
+based on grids-processing and stereovision technology}
 
 
 
-\subsection{klingbeil2010autonomous}
-\textbf{Autonomous operation of novel elevators for robot navigation}
-\begin{itemize}
-\item Autonomous interaction with an unknown elevator button panel. Using state-of-the-art vision algorithms along with machine learning techniques.  
-\item First time for manipulation in unknown elevator. 
-\item Developing robust perception algorithms to detect, localize, and label elevator buttons. 
-\end{itemize}
-\textit{http://ieeexplore.ieee.org/abstract/document/5509466/}
+Contact detection by visually tracking of the displacement of the free end of a nanowire. 
 
 
-
-\subsection{klingbeil2010learning}
-\textbf{Learning to open new doors}
-\begin{itemize}
-\item First time, autonomously opening doors with no known, 3d model of the door handle or knowledge of its location. 
-\item Not to reconstruct a 3d model of the object, but instead recognize the object and identify only the small set of 3d features sufficient to compute the required control. 
-\end{itemize}
-\textit{http://ieeexplore.ieee.org/abstract/document/5649847/}
-
-
-
-\subsection{klingbeil2011grasping}
-\textbf{Grasping with application to an autonomous checkout robot}
-\begin{itemize}
-\item Two-fingered end-effector for grasping unknown objects.
-\item Raw depth data from single frame of a 3D sensor. 
-\item Many approaches assume that the 3dD models of the objects are available. (Direct cite: \textit{https://www-preview.ri.cmu.edu/pub_files/pub4/srinivasa_siddhartha_2008_1/srinivasa_siddhartha_2008_1.pdf} and \textit{http://www.cs.columbia.edu/~allen/PAPERS/grasp.plan.ra03.pdf})
-\item Then not full 3D model and some features being box-shaped or rotational symmetry (Direct cite: \textit{https://scholar.google.de/scholar?hl=en&q=Detection+of+grasping+points+of+unknown+objects+based+on+2+1/2F2d+poin +clouds&btnG=&as_sdt=1/2C5&as_sdtp=})
-\item Additionally, our algorithm does not attempt to recognize or build a model for each object nor does it require off-line training on hand-labeled data
-\item Identifying "grasp point" for unknown objects either through geometrical features of the picture (Direct cite: \textit{12}), or 
-\end{itemize}
-\textit{http://ieeexplore.ieee.org/abstract/document/5980287/}
+\section{Aerial manipulation}
+\subsection{2017: Uncalibrated Visual Servo for Unmanned Aerial Manipulation}
