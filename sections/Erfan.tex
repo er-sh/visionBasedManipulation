@@ -19,9 +19,27 @@ of such nanomaterials, such as [2] which uses the principle component analysis (
 based on grids-processing and stereovision technology}
 
 
-
-Contact detection by visually tracking of the displacement of the free end of a nanowire. 
-
-
 \section{Aerial manipulation}
-\subsection{2017: Uncalibrated Visual Servo for Unmanned Aerial Manipulation}
+\subsection{2017 - Uncalibrated Visual Servo for Unmanned Aerial Manipulation}
+\begin{itemize}
+\item An uncalibrated image-based visual servo strategy to drive the arm end-effector to a desired position and orientation using a camera attached to it. 
+\item In contrast to previous visual-servo approaches, a known value of camera focal length is not strictly required. 
+\item Vision-based robot control systems are usually classified in three groups: position-based visual servo (PBVS) (the geometric model of the target is used in conjunction with image features to estimate the pose of the target with respect to the camera frame), image-based visual servo (IBVS) (both the error and control law are expressed in the image space, minimizing the error between observed and desired image feature coordinates), and hybrid control systems [1].
+\item IBVS is more robust than PBVS with respect to uncertainties and disturbances affecting the model of the robot, as well as the calibration of the camera [2]
+\item  Hybrid methods, also called 2-1/2-D visual servo [3], combine IBVS and PBVS to estimate partial camera displacements at each iteration of the control law minimizing a functional of both.
+\item In our method, the camera focal length is iteratively estimated within the control loop.
+\item In contrast to [4] which uses a combination of classical PBVS and IBVS, in this article we present a fully vision-based self-calibrated scheme that can handle poorly calibrated cameras.
+\end{itemize}
+1: \textit{2011 - Comparison of basic visual servoing methods} \\
+2: \textit{2003 - “Robustness of image-based visual servoing with respect to depth distribution errors} \\
+3: \textit{1999 - 2-1/2-D visual servoing} \\
+4: \textit{2016 - Hybrid visual servoing with hierarchical task composition for aerial manipulation}
+
+
+\subsection{2016 - Vision Based Autonomous Orientational Control for Aerial Manipulation via On-board FPGA}
+
+\section{Humanoid}
+\subsection{2016 - Vision-based manipulation with the humanoid robot Romeo}
+
+\section{Dexterous}
+\subsection{2016 - Vision-based precision manipulation with underactuated hands: Simple and effective solutions for dexterity}
