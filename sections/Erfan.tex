@@ -25,6 +25,22 @@ Kalman-neural-network filtering.
 visual servoing}
 
 
+
+\subsection{Towards Force Sensing from Vision: Observing Hand-Object Interactions to Infer Manipulation Forces}
+\begin{itemize}
+\item a single RGB-D camera for model-based visual
+tracking to estimate the object's pose together with that
+of the hand manipulating it throughout the motion. 
+\end{itemize}
+
+\subsection{2016 - Learning Object Manipulation from Demonstration through Vision for the 7-DOF Barrett WAM}
+\begin{itemize}
+\item Skill learning through Symbolic Encoding rather than trajectory encoding. 
+\item Skill learning part was mostly inspired by [1]
+\end{itemize}
+1: \textit{2013 - Visuospatial skill learning for object reconfiguration
+tasks}
+
 \section{High-speed tracking}
 \subsection{2016 - High-speed 3-D measurement of a moving object with visual servo}
 \begin{itemize}
@@ -85,19 +101,60 @@ based on grids-processing and stereovision technology}
 
 
 \subsection{2016 - Vision Based Autonomous Orientational Control for Aerial Manipulation via On-board FPGA}
+\begin{itemize}
+\item FPGA based, using camera aligning the orientation and getting close to the bar he want to grasp
+\end{itemize}
+
 
 \subsection{2016 - Vision-Guided Aerial Manipulation Using a Multirotor With a Robotic Arm}
+\begin{itemize}
+\item IBVS, multi-rotor with a multi-degree of freedom robotic arm . 
+\item camera guides for having the desired velocity
+\end{itemize}
 
 \section{Humanoid} \label{humanoid}
 \subsection{2016 - Vision-based manipulation with the humanoid robot Romeo}
+\begin{itemize}
+\item In [1] the robot HRP-2 grasps a simple ball while walking thanks to visual servoing.
+\item Using the robot ARMAR-III, a hybrid approach, which combines visual estimations with orientations computed through the kinematic model, is used to control the movement of a humanoid arm in [2]. 
+\item The authors of [3] present a framework for visual servo
+control of the REEM robot upper body for a box grasping.
+\item In [4] a vision/force coupling approach is used to guide the robot hand towards the grasp position and perform a task manipulation taking into account external forces.
+\item In [5] a method for fast visual grasping of unknown objects with a multi-fingered robotic hand is described.
+\item  What was included: an IBVS for gaze control, a PBVS for grasping of a generic object, a special PBVS for grasping of a cylindrical object. Some real application : box grasping, can grasping
+\end{itemize}
+1: \textit{2007 - Visually-guided grasping while walking on a humanoid robot} \\
+2: \textit{2008 - Visual servoing for humanoid grasping and manipulation tasks} \\
+3: \textit{2013 - Visual servoing for the REEM humanoid robot’s upper body} \\
+4: \textit{2007 - Vision force control in task-oriented grasping and manipulation} \\
+5: \textit{2013 - Visual grasp planning for unknown objects using a multifingered robotic hand}
+
+\subsection{Charlie Rides the Elevator–Integrating Vision, Navigation and Manipulation Towards Multi-Floor Robot Locomotion}
+\begin{itemize}
+\item Capabilities including  robotic assistant capable of locating points of interest, manipulating objects,
+\item To do so: laser range finders, stereo and monocular vision systems, and robotic arms - into a complete, task-driven autonomous system.
+\item Mostly manipulation through pushing
+\end{itemize}
+
 
 \section{Dexterous}
 \subsection{2016 - Vision-based precision manipulation with underactuated hands: Simple and effective solutions for dexterity}
-
+\begin{itemize}
+\item Even though vision-based precision manipulation methods are presented in literature for fully-actuated grippers, no methods are proposed for underactuated grippers.
+\item In this work we examine vision-based precision manipulation with underactuated grippers. Using vision feedback and minimal information about the underactuated mechanism, we achieved accurate positioning while maintaining a stable grasp without the use of any joint encoders or force sensors. This success is due to combining the robustness of visual servoing methods with the contact stability provided by adaptive underactuation via precision manipulation primitives (PMPs).
+\end{itemize}
 
 \section{Teleoperation}
 \subsection{2016 - Vision based virtual fixture generation for teleoperated robotic manipulation}
+\begin{itemize}
+\item Vision in tele-operation 
+\end{itemize}
 
+\subsection{2016 - A Framework of Teleoperated and Stereo Vision Guided Mobile Manipulation for Industrial Automation}
+\begin{itemize}
+\item  a stereo vision system providing qualified point cloud data of the object. A modified and improved iterative closest point algorithm is applied to recognize the targeted object greatly avoiding the local minimum in template matching.
+\item Moreover, a stereo vision guided teleoperation control algorithm using virtual fixtures technology is adopted to enhance robot teaching ability.
+\end{itemize}
 
 \section{Underwater}
 \subsection{2016 - Underwater vehicle visual servo and target grasp control}
@@ -114,3 +171,8 @@ based on grids-processing and stereovision technology}
 2: \textit{2012 - Visual servoing of robots with uncalibrated robot and camera parameters} \\
 3: \textit{2015 - Adaptive visual tracking for robotic systems without image space velocity measurement}
 
+\section{Agriculture}
+\subsection{2015 - Vision-Based High-Speed Manipulation For Robotic Ultra-Precise Weed Control}
+\begin{itemize}
+\item High speed image processing pipeline for closed-loop positioning of a weeding tool
+\end{itemize}
