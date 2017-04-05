@@ -1,5 +1,29 @@
 \section{general}
 \subsection{2016 - An image-based visual servo control system based on an eye-in-hand monocular camera for autonomous robotic grasping}
+\begin{itemize}
+\item No use of interaction matrix as traditional method
+\item In visual servo system, information from a vision system is used as feedback signals in a closed-loop control system to control robot motion in real-time [1]
+\item An eye-to-hand camera is installed beside robot while an eye-in-hand camera is mounted on end-effector [2]
+\item An eye-to-hand removes problems associated with a moving camera however it may have some issues such as the camera-to-robot coordinate transformation, manipulator occlude interested features and calibration arise [3]. 
+\item An eye-in-hand camera can change vision position so that the coordinate transformation is relatively simple however it suffers from some problem such as interested features is outside from the field of view while a camera is moving.
+\item Traditional image-based visual servo needs to know an interaction matrix. 
+\item  Our method is based on the point error, area error of features and simple depth estimation
+\item A key parameter to determine an interaction matrix is the depth value for each feature point in each iteration of control loop. Therefore, many researchers use a stereo camera to determine every depth values for each feature point immediately. [4] 
+\item In some research works [6] they used monocular camera and interaction matrix without changing the pitch and roll of camera and interested features.They also estimate depth value from Kalman Filter.
+\item In some work [7], they used monocular camera and estimate interaction matrix from
+Kalman-neural-network filtering. 
+\item In addition, Kosmopoulus [8] used monocular camera and estimate interaction matrix from local estimation.
+\end{itemize}
+1: \textit{2000 - A new hybrid image-based visual servo control scheme} \\
+2: \textit{2015 - Position-based visual servo control of autonomous robotic manipulators} \\
+3: \textit{1996 - Vision-guided robotic grasping: issues and experiments} \\
+4: \textit{2014 - A modified image-based visual servo controller with hybrid camera configuration for robust robotic grasping,} \\
+5: \textit{2012 - Combining stereo vision and fuzzy image based visual servoing for autonomous object grasping using a 6-DOF manipulator} \\
+6: \textit{2014 - Hybrid Eye-to-hand and Eye-in-hand visual servo system for parallel robot conveyor object tracking and fetching} \\
+7: \textit{2015 - Robots visual servo control with features constraint employing Kalman-neural-network filtering scheme} \\
+8: \textit{2011 - Robust Jacobian matrix estimation for image-based
+visual servoing}
+
 
 \section{High-speed tracking}
 \subsection{2016 - High-speed 3-D measurement of a moving object with visual servo}
