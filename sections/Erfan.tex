@@ -65,6 +65,32 @@ up an unknown object for a mobile manipulator} \\
 from Pushing an Object}
 
 \subsection{2013 - Integrating vision, haptics and proprioception into a feedback controller for in-hand manipulation of unknown objects}
+\begin{itemize}
+\item Employs a fast feedback loop based on visual and tactile feedback to perform robust manipulation even in the presence of unexpected slippage or rolling
+\item In contrast to
+traditional manipulation strategies, which require a lot of
+[1] information about the object and which plan in an offline
+fashion, our method plans in an online fashion and employs minimal object and world information. 
+\item Because the proposed method does not depend on the object geometry, it can be easily employed for differently shaped objects as was shown in the accompanying video
+\end{itemize}
+1: \textit{2011 - A modular high-speed tactile sensor for human manipulation research}
+
+\subsection{2013 - Combining Touch and Vision for the Estimation of an Object’s Pose During Manipulation}
+\begin{itemize}
+\item This paper presents a method to use the robot’s sense of touch to refine the knowledge of a manipulated object’s pose from an initial estimate provided by vision. 
+\item Among the most relevant publications that use this approach are the works by Allen et al [1], who combined vision, force and tactile sensing to portray how these different sensing modalities could complement each other.
+\item [2] explored a method
+to localise an object using Scaling Series.
+\item [3] combined tactile, force and vision information to locate and open a door handle and compared the performance under different sensing settings (only force, force and vision and tactile, force and vision), where the combination of the three modalities proved to outperform the other two, which is analogue to the previously mentioned results
+\item  Estimation of an object’s pose combining stereo vision and a force-torque sensor mounted on the wrist of a robot was reported by Hebert et al [4], who also used the joint position to estimate the location of the fingers with respect to the object’s faces.
+\end{itemize}
+1: \textit{1999 - Integration of
+Vision , Force and Tactile Sensing for Grasping} \\
+2: \textit{2011 - Global localization of objects via
+touch} \\
+3: \textit{2009 - Vision-tactile-force integration and robot physical interaction}
+4: \textit{Fusion of stereo vision, forcetorque,
+and joint sensors for estimation of in-hand object location}
 
 \section{High-speed tracking}
 \subsection{2016 - High-speed 3-D measurement of a moving object with visual servo}
@@ -189,6 +215,21 @@ for factory automation and in the food industry. More specifically, we achieved 
 \end{itemize}
 
 
+\subsection{2014 - An Adaptable Robot Vision System Performing Manipulation Actions With Flexible Objects}
+\begin{itemize}
+\item Manipulations such as Peg-in-Hole or
+Laying-Down actions
+\item It is therefore required to integrate visual tracking and shape reconstruction with a physical modeling of the materials and their deformations as well as action learning techniques.
+\item , an approach for tracking flexible objects directly
+in the input data that does not require any form of data preprocessing (as, e.g., feature detection [1] or background subtraction [2]) or the utilization of markers [3].
+\end{itemize}
+1: \textit{2007 - Deformable surface tracking
+ambiguities} \\
+2: \textit{2013 - “Tracking deformable objects with point clouds} \\
+3: \textit{2011 - “Bi-manual robotic paper manipulation
+based on real-time marker tracking and physical modelling}
+
+
 \section{Teleoperation}
 \subsection{2016 - Vision based virtual fixture generation for teleoperated robotic manipulation}
 \begin{itemize}
@@ -220,4 +261,39 @@ for factory automation and in the food industry. More specifically, we achieved 
 \subsection{2015 - Vision-Based High-Speed Manipulation For Robotic Ultra-Precise Weed Control}
 \begin{itemize}
 \item High speed image processing pipeline for closed-loop positioning of a weeding tool
+\end{itemize}
+
+
+\section{Assistive}
+\subsection{2015 - VIBI: Assistive Vision-Based Interface for Robot Manipulation}
+\begin{itemize}
+\item Our proposal is to replace the direct joystick motor control interface present in a commercial wheelchair mounted assistive robotic manipulator with a human-robot interface based on visual selection.
+\item  Our vision system on average was faster
+than the direct joystick control in achieving an orientation
+tasks. And as rated  easier. 
+\item As another example [1]
+\end{itemize}
+
+1: \textit{2007 - “Simplifying wheelchair mounted robotic
+arm control with a visual interface.}
+2: \textit{2008 - Active rough shape estimation of unknown objects}
+3: \textit{2008 - Vision-based grasping of unknown objects to improve disabled people autonomy.}
+4: \textit{2012 - “Mobile manipulation through an assistive home robot}
+
+
+
+\section{Applications}
+\subsection{2009 - High-Accuracy 3D Sensing for Mobile Manipulation: Improving Object Detection and Door Opening}
+\begin{itemize}
+\item Object detection and door opening. Using high resolution depth information
+\end{itemize}
+
+\subsection{2010 - Autonomous operation of novel elevators for robot navigation}
+\begin{itemize}
+\item First time for manipulation in unknown elevator.
+\end{itemize}
+
+\subsection{2010 - Learning to open new doors}
+\begin{itemize}
+\item First time, autonomously opening doors with no known, 3d model of the door handle or knowledge of its location.
 \end{itemize}
