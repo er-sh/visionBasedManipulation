@@ -1,0 +1,12 @@
+\newpage 
+\section*{State of the Art}
+
+Vision based robot control is generally classified into position-based visual servo (PBVS) and image-based visual servo (IBVS) \cite{janabi2011comparison}. IBVS is more robust that PBVS w.r.t. uncertainties and disturbances affecting the model of the robot, as well as the calibration of the camera \cite{malis2003robustness}. Besides, traditional IBVS methods need to know an interaction matrix for which the key parameter is  the depth value for each feature point in each iteration of control loop. Thus, many researchers use a stereo camera to determine every depth values for each feature point immediately \cite{wang2014modified}, or use other techniques \cite{luo2014hybrid}, \cite{zhong2015robots}, \cite{kosmopoulos2011robust}. Nevertheless, in some recent works such as \cite{tongloy2016image}, there has been no need for the interaction matrix. Additionally, there exists also the combination of both IBVS and PBVS methods (also called 2-1/2-D visual servo) \cite{malis19992}. \\
+Depending on the mounting position of camera, there are two types of visual servo systems: eye-to-hand and eye-in-hand \cite{dong2015position}. Although in eye-to-hand mode problems associated with moving camera is removed, other issues arise such as camera-to-robot coordinate transformation, occlusion of interested features due to the manipulator, and the need for calibration \cite{smith1996vision}. 
+
+
+
+
+
+
+.  
